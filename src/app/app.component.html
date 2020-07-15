@@ -1,0 +1,7 @@
+<input type="text" [(ngModel)]="filterBy" placeholder="filterBy" (keyup)="filter()">
+
+<ul>
+  <li *ngFor="let user of filteredUsers">
+    {{ user.name }}
+  </li>
+</ul>
