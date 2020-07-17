@@ -1,3 +1,7 @@
-p {
-  font-family: Lato;
+
+.content {
+  padding: 16px;
+}
+.content > mat-card {
+  margin: 16px;
 }
